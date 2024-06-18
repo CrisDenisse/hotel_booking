@@ -20,8 +20,7 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
 2. **Crea y activa un entorno virtual:**
     ```bash
     python -m venv env
-env\Scripts\activate
-
+    env\Scripts\activate
     ```
 
 3. **Instala las dependencias del proyecto:**
