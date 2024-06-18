@@ -24,12 +24,13 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
     ```
 3. **Crea y activa un entorno virtual:**
     ```bash
-pip install django
-pip install djangorestframework
-pip install django-filter
-pip install requests
-pip install dj_rest_auth
-pip install django-allauth
+    pip install django
+    pip install djangorestframework
+    pip install django-filter
+    pip install requests
+    pip install dj_rest_auth
+    pip install django-allauth
+
     ```
 
 4. **Instala las dependencias del proyecto:**
