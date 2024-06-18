@@ -22,28 +22,37 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
     python -m venv env
     env\Scripts\activate
     ```
+3. **Crea y activa un entorno virtual:**
+    ```bash
+pip install django
+pip install djangorestframework
+pip install django-filter
+pip install requests
+pip install dj_rest_auth
+pip install django-allauth
+    ```
 
-3. **Instala las dependencias del proyecto:**
+4. **Instala las dependencias del proyecto:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Aplica las migraciones de la base de datos:**
+5. **Aplica las migraciones de la base de datos:**
     ```bash
     python manage.py migrate
     ```
 
-5. **Crea un superusuario para acceder al panel de administración:**
+6. **Crea un superusuario para acceder al panel de administración:**
     ```bash
     python manage.py createsuperuser
     ```
 
-6. **Inicia el servidor de desarrollo:**
+7. **Inicia el servidor de desarrollo:**
     ```bash
     python manage.py runserver
     ```
 
-7. **Abre tu navegador web y navega a `http://127.0.0.1:8000` para ver la aplicación en funcionamiento.**
+8. **Abre tu navegador web y navega a `http://127.0.0.1:8000` para ver la aplicación en funcionamiento.**
 
 ## Configuración
 
