@@ -166,6 +166,7 @@ def reserve_room_view(request, room_id):
         form = ReservationForm()
     return render(request, 'reserve_room.html', {'room': room, 'form': form})
 """
+```
 urls.py
 ```bash
 from django.urls import path
@@ -177,6 +178,7 @@ urlpatterns = [
     path('reserve/<int:room_id>/', views.reserve_room_view, name='reserve_room'),
 ]
 """
+```
 API
 A continuación se detallan algunas de las principales vistas y URL:
 
