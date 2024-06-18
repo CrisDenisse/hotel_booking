@@ -13,8 +13,8 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
 
 1. **Clona este repositorio:**
     ```bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
-    cd tu_repositorio
+    git clone https://github.com/CrisDenisse/hotel_booking.git
+    cd hotel_booking
     ```
 
 2. **Crea y activa un entorno virtual:**
