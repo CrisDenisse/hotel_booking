@@ -128,6 +128,7 @@ class Reservation(models.Model):
     def __str__(self):
         return f'Reserva de {self.user.username} en la habitación {self.room.room_number}'
 """
+```
 views.py
 ```bash
 from django.shortcuts import render, get_object_or_404, redirect
