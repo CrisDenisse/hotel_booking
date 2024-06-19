@@ -22,7 +22,7 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
     python -m venv env
     env\Scripts\activate
     ```
-3. **Crea y activa un entorno virtual:**
+3. **Instala las dependencias del proyecto:**
     ```bash
     pip install django
     pip install djangorestframework
@@ -33,9 +33,9 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
 
     ```
 
-4. **Instala las dependencias del proyecto:**
+4. **Creación de archivo de dependencias requerements.txt**
     ```bash
-    pip install -r requirements.txt
+    pip freeze > requirements.txt
     ```
 
 5. **Navega al directorio que contiene el archivo `manage.py`:**
