@@ -4,10 +4,21 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
 
 ## Requisitos
 
-- Python 3.x
-- Django 3.x
 - SQLite (o cualquier otra base de datos compatible con Django)
 - Visual Studio Code (VSCode)
+- ﻿asgiref==3.8.1
+- certifi==2024.6.2
+- charset-normalizer==3.3.2
+- dj-rest-auth==6.0.0
+- Django==5.0.6
+- django-allauth==0.63.3
+- django-filter==24.2
+- djangorestframework==3.15.1
+- idna==3.7
+- requests==2.32.3
+- sqlparse==0.5.0
+- tzdata==2024.1
+- urllib3==2.2.2
 
 ## Instalación
 
