@@ -38,22 +38,28 @@ Este proyecto es una aplicación web desarrollada en Django para la reserva de h
     pip install -r requirements.txt
     ```
 
-5. **Aplica las migraciones de la base de datos:**
+5. **Navega al directorio que contiene el archivo `manage.py`:**
+
+    ```bash
+    cd hotel_booking
+    ```
+
+6. **Aplica las migraciones de la base de datos:**
     ```bash
     python manage.py migrate
     ```
 
-6. **Crea un superusuario para acceder al panel de administración:**
+7. **Crea un superusuario para acceder al panel de administración:**
     ```bash
     python manage.py createsuperuser
     ```
 
-7. **Inicia el servidor de desarrollo:**
+8. **Inicia el servidor de desarrollo:**
     ```bash
     python manage.py runserver
     ```
 
-8. **Abre tu navegador web y navega a `http://127.0.0.1:8000` para ver la aplicación en funcionamiento.**
+9. **Abre tu navegador web y navega a `http://127.0.0.1:8000` para ver la aplicación en funcionamiento.**
 
 ## Configuración
 
