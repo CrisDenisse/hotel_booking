@@ -95,28 +95,41 @@ Para un desarrollo eficiente en VSCode, se recomienda instalar las siguientes ex
 ```plaintext
 Proyecto de Reserva de Habitaciones
 hotel_booking/
-├── hotel_booking
+├── hotel_booking/
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── wsgi.py
-├── rooms
+├── reservations/
+│   ├── migrations/
+│   │   ├── 001_initial.html
+│   │   ├── 002_room_image_url_room_other_images.html
+│   │   ├── _init_.py
+│   ├── templates/
+│   │   ├── registration/
+│   │   │   ├── login.html
+│   │   │   ├── register.html
+│   │   ├── reservations/
+│   │   │   ├── home.html
+│   │   │   ├── login.html
+│   │   │   ├── ocuppancy_stats.html
+│   │   │   ├── reservations_confirmation.html
+│   │   │   ├── reserve_room.html
+│   │   │   ├── room_detail.html
+│   │   │   ├── room_list.html
+│   │   │   ├── signup.html
+│   │   ├── reserve_room.html
 │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
+│   ├── forms.py
 │   ├── models.py
-│   ├── views.py
+│   ├── serializers.py
+│   ├── tests.py
 │   ├── urls.py
-│   ├── templates
-│   │   ├── home.html
-│   │   ├── login.html
-│   │   ├── register.html
-│   │   ├── room_list.html
-│   │   ├── reserve_room.html
+│   ├── views.py
 ├── static
-│   ├── css
-│   │   ├── styles.css
 └── README.md
 │── requirements.txt
 ```
