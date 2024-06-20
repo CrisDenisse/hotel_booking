@@ -119,8 +119,7 @@ hotel_booking/
 │   │   │   ├── room_detail.html
 │   │   │   ├── room_list.html
 │   │   │   ├── signup.html
-│   │   ├── reserve_room.html
-│   ├── __init__.py
+│   │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
 │   ├── forms.py
@@ -129,9 +128,8 @@ hotel_booking/
 │   ├── tests.py
 │   ├── urls.py
 │   ├── views.py
-├── static
 └── README.md
-│── requirements.txt
+├── requirements.txt
 ```
 - myproject: Contiene la configuración del proyecto Django.
 - rooms: Aplicación que maneja las funcionalidades relacionadas con las habitaciones.
