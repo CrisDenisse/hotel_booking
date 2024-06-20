@@ -93,10 +93,11 @@ Para un desarrollo eficiente en VSCode, se recomienda instalar las siguientes ex
 ## Estructura del Proyecto
 
 ```plaintext
-.
-├── manage.py
-├── myproject
+Proyecto de Reserva de Habitaciones
+hotel_booking/
+├── hotel_booking
 │   ├── __init__.py
+│   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── wsgi.py
@@ -116,8 +117,8 @@ Para un desarrollo eficiente en VSCode, se recomienda instalar las siguientes ex
 ├── static
 │   ├── css
 │   │   ├── styles.css
-└── templates
-    └── base.html
+└── README.md
+│── requirements.txt
 ```
 - myproject: Contiene la configuración del proyecto Django.
 - rooms: Aplicación que maneja las funcionalidades relacionadas con las habitaciones.
