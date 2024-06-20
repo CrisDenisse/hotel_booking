@@ -206,7 +206,7 @@ urlpatterns = [
 ]
 """
 ```
-##API
+## API
 A continuación se detallan algunas de las principales vistas y URL:
 
 - Login: url('login', views.login_view)
