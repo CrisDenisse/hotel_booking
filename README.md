@@ -206,15 +206,16 @@ urlpatterns = [
 ]
 """
 ```
-API
+##API
 A continuación se detallan algunas de las principales vistas y URL:
 
-Login: url('login', views.login_view)
-Register: url('register', views.register_view)
-Home: url('home', views.home_view)
-Room List: url('rooms', views.room_list_view)
-Reserve Room: url('reserve', views.reserve_room_view)
-Contribuciones
+- Login: url('login', views.login_view)
+- Register: url('register', views.register_view)
+- Home: url('home', views.home_view)
+- Room List: url('rooms', views.room_list_view)
+- Reserve Room: url('reserve', views.reserve_room_view)
+
+##Contribuciones
 Si deseas contribuir a este proyecto, por favor haz un fork del repositorio y envía un pull request. Todas las contribuciones son bienvenidas.
 
 Licencia
