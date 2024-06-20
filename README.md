@@ -215,14 +215,8 @@ A continuación se detallan algunas de las principales vistas y URL:
 - Room List: url('rooms', views.room_list_view)
 - Reserve Room: url('reserve', views.reserve_room_view)
 
-##Contribuciones
+## Contribuciones
 Si deseas contribuir a este proyecto, por favor haz un fork del repositorio y envía un pull request. Todas las contribuciones son bienvenidas.
-
-Licencia
-Este proyecto está licenciado bajo los términos de la licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-python
-Copiar código
 
 ### Archivos y Comentarios
 
