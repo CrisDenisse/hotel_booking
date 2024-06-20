@@ -100,16 +100,16 @@ hotel_booking/
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
-│   ├── wsgi.py
+│   └── wsgi.py
 ├── reservations/
 │   ├── migrations/
 │   │   ├── 001_initial.html
 │   │   ├── 002_room_image_url_room_other_images.html
-│   │   ├── _init_.py
+│   │   └── _init_.py
 │   ├── templates/
 │   │   ├── registration/
 │   │   │   ├── login.html
-│   │   │   ├── register.html
+│   │   │   └── register.html
 │   │   ├── reservations/
 │   │   │   ├── home.html
 │   │   │   ├── login.html
@@ -118,26 +118,27 @@ hotel_booking/
 │   │   │   ├── reserve_room.html
 │   │   │   ├── room_detail.html
 │   │   │   ├── room_list.html
-│   │   │   ├── signup.html
+│   │   │   └── signup.html
 │   │   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── tests.py
-│   ├── urls.py
-│   ├── views.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── forms.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── db.sqlite3
+│   └── manage.py
 └── README.md
-├── requirements.txt
+└── requirements.txt
 ```
-- myproject: Contiene la configuración del proyecto Django.
-- rooms: Aplicación que maneja las funcionalidades relacionadas con las habitaciones.
-- static: Archivos estáticos como CSS.
+- hotel_booking: Contiene la configuración del proyecto Django.
+- migrations: Aplicación que maneja las funcionalidades relacionadas con las habitaciones.
 - templates: Plantillas HTML.
 
 Comentarios en el Código
-A continuación se incluyen ejemplos de comentarios en el código. Estos comentarios deben colocarse para mejorar la legibilidad y comprensión del código.
+A continuación se incluyen comentarios en el código. Estos comentarios deben colocarse para mejorar la legibilidad y comprensión del código.
 
 models.py
 ```bash
